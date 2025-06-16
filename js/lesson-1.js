@@ -149,16 +149,16 @@
 // В іншому випадку вона запитує підтвердження через confirm
 // і повертає його результат (true/false).
 
-function isAdult(age) {
-  let answer;
-  if (age >= 18) {
-    return true;
-  } else {
-    answer = confirm("Підтвердіть вхід");
-    return answer;
-  }
-}
-console.log(isAdult(prompt("Введіть свій вік")));
+// function isAdult(age) {
+//   let answer;
+//   if (age >= 18) {
+//     return true;
+//   } else {
+//     answer = confirm("Підтвердіть вхід");
+//     return answer;
+//   }
+// }
+// console.log(isAdult(prompt("Введіть свій вік")));
 
 // Напишіть функцію fizzBuzz(num), яка приймає число і перевіряє кожне число від 1 до num:
 // Якщо число ділитися  без остачі на 3 - виводить в консоль 'fizz',
